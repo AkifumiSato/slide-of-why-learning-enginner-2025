@@ -3,6 +3,7 @@
 ## Slide
 
 - [slides.md](./slides.md)
+- [github pages](https://akifumisato.github.io/slide-of-why-learning-enginner-2025/1)
 
 ## Event
 
