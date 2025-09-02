@@ -154,8 +154,8 @@ layout: fact
 - AIが担える
   - 言語化された要求を元にしたテストやテストケースの作成
 - AIが担えない
-  - 要求の言語化（高度なエンジニアリング知識と作業者の時間が必要）
-  - リリース可否<span class="font-bold" v-mark="{ type: 'circle', color: 'red' }">判断</span>
+  - 要求の<span class="font-bold" v-mark="{ type: 'underline', color: 'red' }">言語化</span>（高度なエンジニアリング知識と作業者の時間が必要）
+  - リリース可否<span class="font-bold" v-mark="{ type: 'underline', color: 'red' }">判断</span>
 
 ---
 
@@ -166,7 +166,7 @@ layout: fact
 - AIが担える
   - 設計の壁打ちやルールに基づくチェック
 - AIが担えない
-  - 内部品質の<span class="font-bold" v-mark="{ type: 'circle', color: 'red' }">評価</span>
+  - 内部品質の<span class="font-bold" v-mark="{ type: 'underline', color: 'red' }">評価</span>
 
 ---
 
@@ -177,8 +177,8 @@ layout: fact
 - AIが担える
   - 原因の特定や対処方法の提案
 - AIが担えない
-  - 問題の発見や対処に対する主体性
-  - 「問題に対処できる能力を有する」という<span class="font-bold" v-mark="{ type: 'circle', color: 'red' }">信頼関係</span>
+  - 問題の発見や対処に対する<span class="font-bold" v-mark="{ type: 'underline', color: 'red' }">主体性</span>
+  - 「問題に対処できる能力を有する」という<span class="font-bold" v-mark="{ type: 'underline', color: 'red' }">信頼関係</span>
 
 ---
 
@@ -186,9 +186,9 @@ layout: fact
 
 _労力は外注できるが、能力は外注できない_ by t-wadaさん
 
-- 外部品質を満たしているか -> **判断**
+- 外部品質を満たしているか -> **言語化、判断**
 - 内部品質を満たしているか -> **評価**
-- 問題発生時に対処できるか -> **信頼関係**
+- 問題発生時に対処できるか -> **主体性、信頼関係**
 
 これらに必要なのは「労力」ではなく「**能力**」
 
@@ -263,7 +263,7 @@ AI時代のメンタルモデル
 layout: fact
 ---
 
-我々は以下のプロンプトを意識しなければならない
+我々が実現すべきこと:
 
 _あなたは高い技術力を持ったテックリードです。<br>AI Agentを使いこなして高速な実装と高い品質を両立させて下さい。_
 
